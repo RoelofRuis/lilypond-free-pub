@@ -2,7 +2,6 @@
 
 \include "../../templates/accordion-func.ly"
 \include "../../templates/swing.ly"
-\include "../../templates/publishing.ly"
 
 staffAccordionRight = \new Staff {
   \numericTimeSignature
@@ -356,7 +355,7 @@ staffAccordionLeft = \new Staff {
     tagline = ##f
     instrumentName = "Accordion Solo"
     year = "2016"
-    explainer = "
+    description = "
       An uptempo waltz with emphasis on quick harmonic progression.
       I wrote this mainly to get familiar with creating II - V - I progressions.
       It has the well known french musette form ABACA
@@ -374,7 +373,33 @@ staffAccordionLeft = \new Staff {
     ragged-last-bottom = ##f
     print-all-headers = ##t
     
-    bookTitleMarkup = \publishingTitlePage
+    bookTitleMarkup = \markup {
+      \column {
+        \vspace #3
+        \fill-line { \fontsize #8 \fromproperty #'header:title }
+        \vspace #2
+        \fill-line { \fontsize #6 \italic \fromproperty #'header:composer }
+        \vspace #.5
+        \fill-line { \fontsize #2 \fromproperty #'header:year }
+        \vspace #3
+        \fill-line { \fontsize #4 \fromproperty #'header:instrumentName }
+        \vspace #10
+        \override #'(line-width . 55)
+        \fontsize #1
+        \justify-field #'header:description
+        \vspace #1
+        \fontsize #1
+        \justify-field #'header:info
+        \vspace #4
+        \override #'(line-width . 55)
+        \fontsize #1
+        \justify-field #'header:permission
+        \vspace #1
+        \vspace #14
+        \justify { \char ##x00A9 Roelof Ruis \concat { " - Version " \fromproperty #'header:version } }
+        \typewriter { \fromproperty #'header:projecturl }
+      }
+    }
     
     oddFooterMarkup = \markup {
       \fill-line {
