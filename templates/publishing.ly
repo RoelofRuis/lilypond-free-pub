@@ -12,14 +12,19 @@ publishingTitlePage = \markup {
     \vspace #3
     \fill-line { \fontsize #4 \fromproperty #'header:instrumentName }
     \vspace #10
+    \override #'(line-width . 55)
     \fontsize #1
     \justify-field #'header:explainer
     \vspace #1
-    \left-align { \fontsize #1 \fromproperty #'header:difficulty }
-    \left-align { \fontsize #1 \fromproperty #'header:info }
-    \vspace #21
-    \justify { \char ##x00A9 Roelof Ruis. }
-    \justify { \fromproperty #'header:permission }
+    \fontsize #1
+    \justify-field #'header:info
+    \vspace #4
+    \override #'(line-width . 55)
+    \fontsize #1
+    \justify-field #'header:permission
+    \vspace #1
+    \vspace #14
+    \justify { \char ##x00A9 Roelof Ruis \concat { " - Version " \fromproperty #'header:version } }
     \typewriter { \fromproperty #'header:projecturl }
   }
 }

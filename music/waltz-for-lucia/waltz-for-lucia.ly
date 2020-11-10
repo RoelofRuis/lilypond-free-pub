@@ -193,87 +193,87 @@ staffAccordionLeft = \new Staff {
   \key c \major
   \clef bass
   \time 3/4
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, f>\mj-- |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, g>\spt |
-    c4 c'\mj c'\mj |
-    d f\mj <g, f>\mj-- |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
+    d f\mj <g, f>-- |
+    c4 c'\mj c' |
     d f\mj <g, f>\mj |
     
     \bar "||"
     
-    c c'\mj c'\mj |
-    e, e\spt e\spt |
-    a, a\mn a\mn |
+    c c'\mj c' |
+    e, e\spt e |
+    a, a\mn a |
     d f\mj <g, f>\mj-- |
-    c c'\mj c'\mj |
-    b, b\spt b\spt |
-    e, e\mn e\mn |
+    c c'\mj c' |
+    b, b\spt b |
+    e, e\mn e |
     a, c'\mj <d c'>\mj-- |
-    g, g\mj g\mj |
-    fis, fis\spt fis\spt |
-    b, b\mn b\mn |
-    g, g\mn g\mn |
-    b, b\mn b\mn |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
+    g, g\mj g |
+    fis, fis\spt fis |
+    b, b\mn b |
+    g, g\mn g |
+    b, b\mn b |
+    bes, bes\spt bes |
+    a, a\spt a |
     <a, a>8\spt r r2 |
-    d4 d'\mj d'\mj |
-    c c'\spt c'\spt |
-    f, f\mn f\mn |
+    d4 d'\mj d' |
+    c c'\spt c' |
+    f, f\mn f |
     bes, des'\mj <es, des'>\mj |
-    as, as\mj as\mj |
-    g, g\mj g\mj |
-    c c'\mn c'\mn |
+    as, as\mj as |
+    g, g\mj g |
+    c c'\mn c' |
     f, as\mj <bes, as>\mj |
-    es, es\mj es\mj |
-    f4. g |
+    es, es\mj es |
+    f,4. g, |
     as,2 bes,4 |
-    c8 r b bes a4 | 
-    as, as\mj as\mj |
-    g, g\mj g\mj |
-    c c'\mj c'\mj
+    c8 r b, bes, a,4 | 
+    as, as\mj as |
+    g, g\mj g |
+    c c'\mj c'
     d f\mj <g, f>\mj-- |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, g>\spt |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, f>\mj-- |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d d'\mn <e, e>\spt |
-    a, a\mn a\mn |
-    g, g\mj g\mj |
-    f, f\mj f\mj |
-    e, e\spt e\spt |
-    a, a\mn a\mn |
-    as, as\mn as\mn |
-    g, es\mj es\mj |
-    fis, d'\mj d'\mj |
-    g, g\mn g\mn |
-    f, f\mj f\mj |
-    es, es\mj es\mj |
-    d d'\spt d'\spt |
-    g, g\mn g\mn |
-    c c'\mj c'\mj |
-    f, f\mj f\mj |
+    a, a\mn a |
+    g, g\mj g |
+    f, f\mj f |
+    e, e\spt e |
+    a, a\mn a |
+    as, as\mn as |
+    g, es\mj es |
+    fis, d'\mj d' |
+    g, g\mn g |
+    f, f\mj f |
+    es, es\mj es |
+    d d'\spt d' |
+    g, g\mn g |
+    c c'\mj c' |
+    f, f\mj f |
     f, f\mj r4 |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    bes, bes\spt bes\spt |
-    a, a\spt a\spt |
-    d d'\mn d'\mn |
-    des d'\mn d'\mn |
-    << { r4 f\mj f\mj } \\ { c2. } >> |
-    << { r4 f\mj f\mj } \\ { g,2. } >> |
+    bes, bes\spt bes |
+    a, a\spt a |
+    bes, bes\spt bes |
+    a, a\spt a |
+    bes, bes\spt bes |
+    a, a\spt a |
+    bes, bes\spt bes |
+    a, a\spt a |
+    bes, bes\spt bes |
+    a, a\spt a |
+    bes, bes\spt bes |
+    a, a\spt a |
+    d d'\mn d' |
+    des d'\mn d' |
+    << { r4 f\mj f } \\ { c2. } >> |
+    << { r4 f\mj f } \\ { g,2. } >> |
     
     \cadenzaOn
       \stopStaff
@@ -286,44 +286,44 @@ staffAccordionLeft = \new Staff {
    
     \break
     
-    c4 bes\mj bes\mj |
-    f, f\mj f\mj |
-    e, e\mj e\mj |
-    a, a\mn a\mn |
+    c4 bes\mj bes |
+    f, f\mj f |
+    e, e\mj e |
+    a, a\mn a |
     b, b\mn <e, e>\spt |
-    a, a\mn a\mn |
-    g, a\mn a\mn |
-    fis, d'\mj d'\mj |
-    f, f\mj f\mj |
-    a, a\mn a\mn |
-    d f\mj f\mj |
-    g, f\mj f\mj |
+    a, a\mn a |
+    g, a\mn a |
+    fis, d'\mj d' |
+    f, f\mj f |
+    a, a\mn a |
+    d f\mj f |
+    g, f\mj f |
     c c'\mj <b, b>\spt |
-    e, g\mj g\mj |
-    e, g\mj g\mj |
-    << { r4 g\mj g\mj } \\ { a,2.} >> |
-    << { r4 g\mj g\mj } \\ { a,2.} >> |
-    d4 d'\mj d'\mj |
-    cis cis'\mj cis'\mj |
-    fis, fis\mn fis\mn |
+    e, g\mj g |
+    e, g\mj g |
+    << { r4 g\mj g } \\ { a,2.} >> |
+    << { r4 g\mj g } \\ { a,2.} >> |
+    d4 d'\mj d' |
+    cis cis'\mj cis' |
+    fis, fis\mn fis |
     gis, gis\mn <cis cis'>\spt |
-    fis, fis\mn fis\mn |
-    e, fis\mn fis\mn |
-    dis b\mj b\mj |
+    fis, fis\mn fis |
+    e, fis\mn fis |
+    dis b\mj b |
     d d'\mj des-- |
-    fis, fis\mn fis\mn |
-    f, cis'\mj cis'\mj |
-    e, e\mn e\mn |
-    dis, b\mj b\mj |
-    d d'\mn d'\mn |
-    g, f\mj f\mj |
-    c4 c'\mj c'\mj |
+    fis, fis\mn fis |
+    f, cis'\mj cis' |
+    e, e\mn e |
+    dis, b\mj b |
+    d d'\mn d' |
+    g, f\mj f |
+    c4 c'\mj c' |
     d f\mj <g, f>\mj |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, g>\spt |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     d f\mj <g, f>\mj |
-    c4 c'\mj c'\mj |
+    c4 c'\mj c' |
     <g,~ f~>2.\mj |
     <g, f>2.\mj |
 
@@ -353,20 +353,20 @@ staffAccordionLeft = \new Staff {
   \header {
     title = "Waltz for Lucia"
     composer = "Roelof Ruis"
-    instrumentName = "Accordion Solo"
     tagline = ##f
+    instrumentName = "Accordion Solo"
     year = "2016"
     explainer = "
-      An uptempo waltz with emphasis on quick harmonic progression.\n
-      I wrote this mainly to get familiar with creating II - V - I progressions.\n
-      It has the well known french musette form A B A C A
+      An uptempo waltz with emphasis on quick harmonic progression.
+      I wrote this mainly to get familiar with creating II - V - I progressions.
+      It has the well known french musette form ABACA
     "
-    difficulty = "Medium difficulty"
-    info = "For standard bass"
+    info = "For standard bass - Medium difficulty"
     permission = "Explicit permission is granted to NOVAM Nederland to publish this work on their website for free."
     projecturl = "https://github.com/RoelofRuis/free-sheets"
+    version = "November 2020"
   }
-  
+
   \paper {
     max-systems-per-page = 5
     min-systems-per-page = 5
