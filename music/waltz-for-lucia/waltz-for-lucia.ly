@@ -360,7 +360,7 @@ staffAccordionLeft = \new Staff {
       I wrote this mainly to get familiar with creating II - V - I progressions.
       It has the well known french musette form ABACA
     "
-    info = "For standard bass - Medium difficulty"
+    info = "For standard bass - Difficulty: Medium"
     permission = "Explicit permission is granted to NOVAM Nederland to publish this work on their website for free."
     projecturl = "https://github.com/RoelofRuis/free-sheets"
     version = "November 2020"
