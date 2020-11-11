@@ -1,4 +1,4 @@
-\version "2.12.0"
+\version "2.20.0"
 
 \include "../../templates/accordion-func.ly"
 
@@ -16,7 +16,6 @@ staffAccordionRight = {
      } \\ {
        s8
      } >>
-       
     }
 
     << {
@@ -78,7 +77,7 @@ staffAccordionRight = {
       bes4 a ges f |
       e2 d4. r8 |
       e4_\markup {\italic "rit."} <fis a>4 <g~ b>4 g8 <a d>8 |
-      <es a>4 <f a>4 r8 d8 e4^\turn |
+      <es a>8 <f a>4. r8 d8 e4^\turn |
       
     } >>
     
@@ -173,7 +172,8 @@ staffAccordionLeft = {
     tagline = ##f
     instrumentName = "Accordion Solo"
     year = "2016"
-    description = "A short jazz piece which I wrote while practicing working with jazz harmony."
+    description = "A short piece on the edge between classical and jazz, which I wrote while practicing working with jazz harmony and voice leading.
+                   Mind the slightly differing lines in the reprise."
     info = "For free bass - Difficulty: Hard"
     permission = "Explicit permission is granted to NOVAM Nederland to publish this work on their website for free."
     projecturl = "https://github.com/RoelofRuis/free-sheets"
@@ -209,7 +209,7 @@ staffAccordionLeft = {
         \fontsize #1
         \justify-field #'header:permission
         \vspace #1
-        \vspace #16
+        \vspace #14
         \justify { \char ##x00A9 Roelof Ruis \concat { " - Version " \fromproperty #'header:version } }
         \typewriter { \fromproperty #'header:projecturl }
       }
@@ -219,7 +219,7 @@ staffAccordionLeft = {
       \fill-line {
         \center-column {
           \on-the-fly #part-first-page ""
-          \on-the-fly #not-first-page \line { \char ##x00A9 Roelof Ruis - roelofruis.nl }
+          \on-the-fly #not-first-page \line { \char ##x00A9 Roelof Ruis - sheetmusic.roelofruis.nl }
         }
       }
     }  

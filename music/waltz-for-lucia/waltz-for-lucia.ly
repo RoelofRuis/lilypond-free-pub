@@ -405,7 +405,7 @@ staffAccordionLeft = \new Staff {
       \fill-line {
         \center-column {
           \on-the-fly #part-first-page ""
-          \on-the-fly #not-first-page \line { \char ##x00A9 Roelof Ruis - roelofruis.nl }
+          \on-the-fly #not-first-page \line { \char ##x00A9 Roelof Ruis - sheetmusic.roelofruis.nl }
         }
       }
     }  
